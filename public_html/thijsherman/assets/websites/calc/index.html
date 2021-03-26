@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div id="container">
+        <div id="calculator">
+            <table>
+                <tr>
+                    <td colspan="3"><input type="text" id="scherm"/></td>
+                    <td><button onclick="playAudio()" id="leeg">C</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="playAudio()" id="zeven">7</button></td>
+                    <td><button onclick="playAudio()" id="acht">8</button></td>
+                    <td><button onclick="playAudio()" id="negen">9</button></td>
+                    <td><button onclick="playAudio()" id="delen">/</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="playAudio()" id="vier">4</button></td>
+                    <td><button onclick="playAudio()" id="vijf">5</button></td>
+                    <td><button onclick="playAudio()" id="zes">6</button></td>
+                    <td><button onclick="playAudio()" id="vermeningvuldigen">*</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="playAudio()" id="een">1</button></td>
+                    <td><button onclick="playAudio()" id="twee">2</button></td>
+                    <td><button onclick="playAudio()" id="drie">3</button></td>
+                    <td><button onclick="playAudio()" id="aftrekken">-</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="playAudio()" id="nul">0</button></td>
+                    <td><button onclick="playAudio()" id="punt">.</button></td>
+                    <td><button onclick="playAudio()" id="is">=</button></td>
+                    <td><button onclick="playAudio()" id="optellen">+</button></td>
+                </tr>
+
+                
+            </table>
+            <audio id="myAudio">
+                <source src="sounds/click.wav" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+        </div>
+        <script src="script.js"></script>
+    </div>
+
+
+    
+</body>
+</html>

@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;700&display=swap');
+
+body{
+    background:  #126fa5;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+header{
+    text-align: center;
+}
+.logo{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.logoimg{
+    width: 150px;
+}
+nav{
+    margin: 2em auto 0;
+    max-width: 600px;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+
+}
+nav ul li a{
+text-decoration: none;
+color: white;
+}
+main{
+    display: flex;
+    flex-flow: column;
+    
+}
+.hero{
+    text-align: center;
+}
+
+.hero h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: rgba(32, 235, 83, 0.692);
+}
+
+.hero p{
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 2.3rem;
+    margin: 3rem auto;
+}
+.hero p:before{
+    content: "";
+    display: block;
+    width: 120px;
+    border: 3px solid greenyellow;
+    margin: 1rem auto;
+
+}
+
+figure img{
+    width: 300px;
+    margin: 5rem auto;
+    border-radius: 50%;
+
+}
+.hero a{
+    text-decoration: none;
+    background-color: rgba(32, 235, 83, 0.692);
+    padding: 1rem 2.4rem;
+    border: 3px solid rgb(221, 157, 37);
+    border-radius: 50px;
+    
+}
+section{
+    width: 90vw;
+    box-sizing: border-box;
+    max-width: 90vw;
+    margin: 0 auto;
+    /* padding: 2rem 1rem 2rem 1rem; */
+    padding: 2rem 1rem;
+
+}
+.img1{
+    order: -5;
+    
+}
+
+/* footer */
+
+footer{
+    height: 40vh;
+    background-color: #3e0f3e;
+    display: flex;
+    justify-content: space-around;
+    color: pink;
+}
+
+.text-fff{
+color: aliceblue;
+
+}
+
+.footer-col a{
+color: pink;
+text-decoration: none;
+
+}
+
+.footer-col a:hover{
+color: blue;
+
+}
+.img-gallerij{
+width: 52%;
+height: 52%;
+
+}
+.active a{
+text-decoration: red underline;
+ 
+}
+a:hover{
+
+color: red;
+}
+
+
+@media only screen and (min-width: 600px) {
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav{
+        margin: 0;
+    }
+
+    nav ul{
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+
+    nav ul li{
+        padding: 0.5rem 2rem;
+
+    }
+
+    nav ul li a{
+        font-size: 1.35em;
+        color: white;
+        font-weight: 700;
+        text-decoration: none;
+    }
+    
+    main{
+        flex-flow: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .hero{
+        text-align: left;
+        width: 40%;
+        margin: 0;
+    }
+
+    .hero h1{
+        font-size: 4rem;
+    }
+
+    .hero p:before{
+        width: 160px;
+        border: 3px solid greenyellow;
+        margin: 1rem 0;
+
+    }
+
+    figure{
+        margin-left: auto;
+
+        
+
+    }
+
+
+  }
+
+  
+
+
+
+
+

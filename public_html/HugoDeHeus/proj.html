@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+    <!--This connects all the CSS files used on this page.-->
+    <link href="css/pstyle.css" rel="stylesheet">
+    <link rel="stylesheet" href="highlight/styles/rainbow.css">
+</head>
+<body>
+    <!--This is the container. This is the place with al the content.-->
+    <div class="container">
+        <!--This is the header. This is the grey block at the top.-->
+        <div class="header">
+            <div class="name">
+                Projects
+            </div>
+            <!--This is my self made logo.-->
+            <div class="logo">
+                <button class="die">
+                    <img src="photo/logo2.png" id="dice" class="dice">
+                </button>
+                <audio id="d20">
+                    <source src="https://freesound.org/data/previews/353/353974_1815993-lq.mp3">
+                </audio>
+            </div>
+        </div>
+
+        <!--This is the bar where you can find the menu.-->
+        <div class="bar">
+            <!--This is the menu. Here can you find the diffrent links to the other pages-->
+            <div class="menu">
+                <!--If you click on this it will send you to the project page-->
+                <div class="pagina">
+                    <div class="menutext">
+                        <a  href="proj.html">
+                            PROJECTS
+                        </a>
+
+                    </div>
+                </div>
+                 <!--If you click on this it will send you to the home page-->
+                <div class="home">
+                    <a href="index.html">
+                        <img src="photo/home.png">
+                    </a>
+                </div>
+                 <!--If you click on this it will send you to the contact page-->
+                <div class="pagina2">
+                    <div class="menutext">
+                        <a href="contact.html">
+                            CONTACT
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--This is the white block.-->
+        <div class="content">
+            <!--The title-->
+            <div class="big">
+                JavaScript Form
+            </div>
+            <!--Info about the project-->
+            <div class="small">
+                The form is one of the hardest project I worked on is this period. <br>
+                I worked hard for this and even got a few bonus tasks done in this project. <br>
+                And this is my code and result.
+            </div>
+            <!--Link to the project.-->
+            <a class="form" href="form/index.html">
+                <div class="formbutton">
+                    FORM
+                </div>
+            </a>
+            <!--This is the HTML code.-->
+            <div class="codes">
+                <pre>
+                    <code class="html">
+&#x3C;!DOCTYPE html&#x3E;
+&#x3C;html lang=&#x22;en&#x22;&
+&#x3C;head&#x3E;
+    &#x3C;meta charset=&#x22;UTF-8&#x22;&#x3E;
+    &#x3C;meta name=&#x22;viewport&#x22; content=&#x22;width=device-width, initial-scale=1.0&#x22;&#x3E;
+    &#x3C;title&#x3E;formulier&#x3C;/title&#x3E;
+    &#x3C;link rel=&#x22;stylesheet&#x22; href=&#x22;style.css&#x22;&#x3E;
+&#x3C;/head&
+&#x3C;body&#x3E;
+    &#x3C;div class=&#x22;container&#x22;&#x3E;
+        &#x3C;div class=&#x22;header&#x22;&#x3E;
+            &#x3C;h2&#x3E;Afleveradres&#x3C;/h2&#x3E;
+        &#x3C;/div&#x3E;
+        &#x3C;form id=&#x22;form&#x22; class=&#x22;form&#x22; action=&#x22;gegevens.html&#x22; method=&#x22;GET&#x22;&#x3E;
+            &#x3C;div class=&#x22;form-control&#x22;&#x3E;
+                &#x3C;label id=&#x22;labelaanhef&#x22;&#x3E;Aanhef*&#x3C;/label&#x3E;
+                &#x3C;select id=&#x22;aanhef&#x22; name=&#x22;aanhef&#x22; class=&#x22;required&#x22;&#x3E;
+                    &#x3C;option value=&#x22;&#x22;&#x3E;Aanhef&#x3C;/option&#x3E;
+                    &#x3C;option value=&#x22;Dhr.&#x22; &#x3E;Dhr.&#x3C;/option&#x3E;
+                    &#x3C;option value=&#x22;Mvr.&#x22; &#x3E;Mvr.&#x3C;/option&#x3E;
+                &#x3C;/select&#x3E;
+                &#x3C;small&#x3E;Error message&#x3C;/small&#x3E;
+            &#x3C;/div&
+            &#x3C;div class=&#x22;form-control&#x22;&#x3E;
+                &#x3C;label id=&#x22;labelvoornaam&#x22;&#x3E;Voornaam*&#x3C;/label&#x3E;
+                &#x3C;input type=&#x22;text&#x22; placeholder=&#x22;John&#x22; id=&#x22;voornaam&#x22; class=&#x22;required&#x22; name=&#x22;voornaam&#x22;&#x3E;
+                &#x3C;small&#x3E;Error message&#x3C;/small&#x3E;
+            &#x3C;/div&
+            &#x3C;div class=&#x22;form-control&#x22;&#x3E;
+                &#x3C;label id=&#x22;labelachternaam&#x22;&#x3E;Achternaam*&#x3C;/label&#x3E;
+                &#x3C;input type=&#x22;text&#x22; placeholder=&#x22;Doe&#x22; id=&#x22;achternaam&#x22; class=&#x22;required&#x22; name=&#x22;achternaam&#x22;&#x3E;
+                &#x3C;small&#x3E;Error message&#x3C;/small&#x3E;
+            &#x3C;/div&
+            &#x3C;div class=&#x22;form-control&#x22;&#x3E;
+                &#x3C;label id=&#x22;labelstraat&#x22;&#x3E;Straatnaam*&#x3C;/label&#x3E;
+                &#x3C;input type=&#x22;text&#x22; placeholder=&#x22;Straatweg&#x22; id=&#x22;straat&#x22; class=&#x22;required&#x22; name=&#x22;straat&#x22;&#x3E;
+                &#x3C;small&#x3E;Error message&#x3C;/small&#x3E;
+            &#x3C;/div&
+            &#x3C;div class=&#x22;form-control&#x22;&#x3E;
+                &#x3C;label for=&#x22;nummer&#x22;&#x3E;Huisnummer*&#x3C;/label&#x3E;
+                &#x3C;input type=&#x22;number&#x22; placeholder=&#x22;5&#x22; id=&#x22;nummer&#x22; class=&#x22;required&#x22; name=&#x22;nummer&#x22;&#x3E;
+                &#x3C;small&#x3E;Error message&#x3C;/small&#x3E;
+            &#x3C;/div&
+            &#x3C;div class=&#x22;form-control&#x22;&#x3E;
+                &#x3C;label for=&#x22;bedrijf&#x22;&#x3E;Bedrijf&#x3C;/label&#x3E;
+                &#x3C;input type=&#x22;text&#x22; id=&#x22;bedrijf&#x22; name=&#x22;bedrijf&#x22;&#x3E;
+            &#x3C;/div&
+            &#x3C;div class=&#x22;form-control&#x22;&#x3E;
+                &#x3C;label for=&#x22;post&#x22;&#x3E;Postcode*&#x3C;/label&#x3E;
+                &#x3C;input type=&#x22;text&#x22; id=&#x22;post&#x22; placeholder=&#x22;1234AB&#x22; pattern=&#x22;[0-9]{4}[A-Z]{2}&#x22; class=&#x22;required&#x22; name=&#x22;post&#x22;&#x3E;
+                &#x3C;small&#x3E;Error message&#x3C;/small&#x3E;
+            &#x3C;/div&
+            &#x3C;div class=&#x22;form-control&#x22;&#x3E;
+                &#x3C;label for=&#x22;plaats&#x22;&#x3E;Plaats*&#x3C;/label&#x3E;
+                &#x3C;input type=&#x22;text&#x22; id=&#x22;plaats&#x22; placeholder=&#x22;Utrecht&#x22; class=&#x22;required&#x22; name=&#x22;plaats&#x22;&#x3E;
+                &#x3C;small&#x3E;Error message&#x3C;/small&#x3E;
+            &#x3C;/div&
+            &#x3C;div class=&#x22;form-control&#x22;&#x3E;
+                &#x3C;label for=&#x22;land&#x22;&#x3E;Land*&#x3C;/label&#x3E;
+                &#x3C;select id=&#x22;land&#x22; class=&#x22;required&#x22; name=&#x22;land&#x22;&#x3E;
+                    &#x3C;option value=&#x22;&#x22;&#x3E;Land&#x3C;/option&#x3E;
+                    &#x3C;option value=&#x22;NL&#x22; &#x3E;Nederland&#x3C;/option&#x3E;
+                    &#x3C;option value=&#x22;DL&#x22; &#x3E;Deutschland&#x3C;/option&#x3E;
+                    &#x3C;option value=&#x22;UK&#x22; &#x3E;United Kingdom&#x3C;/option&#x3E;
+                &#x3C;/select&#x3E;
+                &#x3C;small&#x3E;Error message&#x3C;/small&#x3E;
+            &#x3C;/div&
+            &#x3C;div class=&#x22;form-control&#x22;&#x3E;
+                &#x3C;label for=&#x22;email&#x22;&#x3E;Email*&#x3C;/label&#x3E;
+                &#x3C;input type=&#x22;email&#x22; placeholder=&#x22;johndoe.1234@gmail.com&#x22; id=&#x22;email&#x22; class=&#x22;required&#x22; name=&#x22;email&#x22;&#x3E;
+                &#x3C;small&#x3E;Error message&#x3C;/small&#x3E;
+            &#x3C;/div&
+            &#x3C;div class=&#x22;form-control&#x22;&#x3E;
+                &#x3C;label for=&#x22;telenum&#x22;&#x3E;Telefoon nummer*&#x3C;/label&#x3E;
+                &#x3C;input type=&#x22;tel&#x22; placeholder=&#x22;06 12345678&#x22; id=&#x22;telenum&#x22; pattern=&#x22;[0-9]{2} [0-9]{8}&#x22; class=&#x22;required&#x22; name=&#x22;telenum&#x22;&#x3E;
+                &#x3C;small&#x3E;Error message&#x3C;/small&#x3E;
+            &#x3C;/div&
+            &#x3C;div class=&#x22;form-control&#x22;&#x3E;
+                &#x3C;label for=&#x22;agv&#x22;&#x3E;Gaat u akkoord met de algemene voorwaarden?&#x3C;/label&#x3E;
+                &#x3C;select id=&#x22;agv&#x22;&#x3E;
+                    &#x3C;option value=&#x22;&#x22;&#x3E;Nee&#x3C;/option&#x3E;
+                    &#x3C;option value=&#x22;ja&#x22;&#x3E;Ja&#x3C;/option&#x3E;
+                &#x3C;/select&#x3E;
+                &#x3C;small&#x3E;Error message&#x3C;/small&#x3E;
+            &#x3C;/div&
+            &#x3C;hr class=&#x22;line&#x22;&
+            &#x3C;div class=&#x22;vraag&#x22;&#x3E;
+                    
+                &#x3C;label for=&#x22;vraag&#x22;&#x3E;Heeft u een ander factuur adres?&#x3C;/label&#x3E;
+                &#x3C;br&#x3E;
+                &#x3C;small&#x3E;Als u op &#x22;nee&#x22; klikt dan worden de ingevulde vakken hier onder gekopie&#xEB;rd.&#x3C;/small&#x3E;
+                &#x3C;br&#x3E;
+                &#x3C;input type=&#x22;checkbox&#x22; name=&#x22;check1&#x22; onchange=&#x22;copyTextValue(this);&#x22; /&#x3E;
+                &#x3C;span&#x3E; 
+                    Nee
+                &#x3C;/span&#x3E;
+            &#x3C;/div&
+            &#x3C;hr class=&#x22;line&#x22;&
+            &#x3C;div class=&#x22;form-control&#x22;&#x3E;
+                &#x3C;label for=&#x22;aanhef&#x22;&#x3E;Aanhef*&#x3C;/label&#x3E;
+                &#x3C;select id=&#x22;aanhef2&#x22; class=&#x22;required2&#x22;&#x3E;
+                    &#x3C;option value=&#x22;&#x22;&#x3E;Aanhef&#x3C;/option&#x3E;
+                    &#x3C;option value=&#x22;Dhr.&#x22; &#x3E;Dhr.&#x3C;/option&#x3E;
+                    &#x3C;option value=&#x22;Mvr.&#x22; &#x3E;Mvr.&#x3C;/option&#x3E;
+                &#x3C;/select&#x3E;
+                &#x3C;small&#x3E;Error message&#x3C;/small&#x3E;
+            &#x3C;/div&
+            &#x3C;div class=&#x22;form-control&#x22;&#x3E;
+                &#x3C;label for=&#x22;voornaam&#x22;&#x3E;Voornaam*&#x3C;/label&#x3E;
+                &#x3C;input type=&#x22;text&#x22; placeholder=&#x22;John&#x22; id=&#x22;voornaam2&#x22; class=&#x22;required2&#x22;/&#x3E;
+                &#x3C;small&#x3E;Error message&#x3C;/small&#x3E;
+            &#x3C;/div&
+            &#x3C;div class=&#x22;form-control&#x22;&#x3E;
+                &#x3C;label for=&#x22;achternaam&#x22;&#x3E;Achternaam*&#x3C;/label&#x3E;
+                &#x3C;input type=&#x22;text&#x22; placeholder=&#x22;Doe&#x22; id=&#x22;achternaam2&#x22; class=&#x22;required2&#x22;/&#x3E;
+                &#x3C;small&#x3E;Error message&#x3C;/small&#x3E;
+            &#x3C;/div&
+            &#x3C;div class=&#x22;form-control&#x22;&#x3E;
+                &#x3C;label for=&#x22;straat&#x22;&#x3E;Straatnaam*&#x3C;/label&#x3E;
+                &#x3C;input type=&#x22;text&#x22; placeholder=&#x22;Straatweg&#x22; id=&#x22;straat2&#x22; class=&#x22;required2&#x22;/&#x3E;
+                &#x3C;small&#x3E;Error message&#x3C;/small&#x3E;
+            &#x3C;/div&
+            &#x3C;div class=&#x22;form-control&#x22;&#x3E;
+                &#x3C;label for=&#x22;nummer&#x22;&#x3E;Huisnummer*&#x3C;/label&#x3E;
+                &#x3C;input type=&#x22;number&#x22; placeholder=&#x22;5&#x22; id=&#x22;nummer2&#x22; class=&#x22;required2&#x22;/&#x3E;
+                &#x3C;small&#x3E;Error message&#x3C;/small&#x3E;
+            &#x3C;/div&
+            &#x3C;div class=&#x22;form-control&#x22;&#x3E;
+                &#x3C;label for=&#x22;bedrijf&#x22;&#x3E;Bedrijf&#x3C;/label&#x3E;
+                &#x3C;input type=&#x22;text&#x22; id=&#x22;bedrijf2&#x22;&#x3E;
+            &#x3C;/div&
+            &#x3C;div class=&#x22;form-control&#x22;&#x3E;
+                &#x3C;label for=&#x22;post&#x22;&#x3E;Postcode*&#x3C;/label&#x3E;
+                &#x3C;input type=&#x22;text&#x22; id=&#x22;post2&#x22; placeholder=&#x22;1234AB&#x22; pattern=&#x22;[0-9]{4}[A-Z]{2}&#x22;&#x3E;
+                &#x3C;small&#x3E;Error message&#x3C;/small&#x3E;
+            &#x3C;/div&
+            &#x3C;div class=&#x22;form-control&#x22;&#x3E;
+                &#x3C;label for=&#x22;plaats2&#x22;&#x3E;Plaats*&#x3C;/label&#x3E;
+                &#x3C;input type=&#x22;text&#x22; id=&#x22;plaats2&#x22; placeholder=&#x22;Utrecht&#x22;&#x3E;
+                &#x3C;small&#x3E;Error message&#x3C;/small&#x3E;
+            &#x3C;/div&
+            &#x3C;div class=&#x22;form-control&#x22;&#x3E;
+                &#x3C;label for=&#x22;land&#x22;&#x3E;Land*&#x3C;/label&#x3E;
+                &#x3C;select id=&#x22;land2&#x22;&#x3E;
+                    &#x3C;option value=&#x22;&#x22;&#x3E;Land&#x3C;/option&#x3E;
+                    &#x3C;option value=&#x22;NL&#x22; &#x3E;Nederland&#x3C;/option&#x3E;
+                    &#x3C;option value=&#x22;DL&#x22; &#x3E;Deutschland&#x3C;/option&#x3E;
+                    &#x3C;option value=&#x22;UK&#x22; &#x3E;United Kingdom&#x3C;/option&#x3E;
+                &#x3C;/select&#x3E;
+                &#x3C;small&#x3E;Error message&#x3C;/small&#x3E;
+            &#x3C;/div&#x3E;
+            &#x3C;button type=&#x22;submit&#x22; id=&#x22;submit&#x22; class=&#x22;submit&#x22;&#x3E;Submit&#x3C;/button&#x3E;
+        &#x3C;/form&#x3E;
+    &#x3C;/div&#x3E;
+    &#x3C;script src=&#x22;script.js&#x22;&#x3E;&#x3C;/script&#x3E;
+&#x3C;/body&
+&#x3C;/html&#x3E;
+                     </code>
+                </pre>
+                <!--This is the JavaScript code-->
+                <pre>
+                    <code class=js>
+const form = document.getElementById('form');
+const aanhef = document.getElementById('aanhef');
+const voornaam = document.getElementById('voornaam');
+const achternaam = document.getElementById('achternaam');
+const straat = document.getElementById('straat');
+const nummer = document.getElementById('nummer');
+const bedrijf = document.getElementById('bedrijf');
+const post = document.getElementById('post');
+const plaats = document.getElementById('plaats');
+const land = document.getElementById('land');
+const email = document.getElementById('email');
+const telenum = document.getElementById('telenum');
+const agv = document.getElementById('agv');
+
+const aanhef2 = document.getElementById('aanhef2');
+const voornaam2 = document.getElementById('voornaam2');
+const achternaam2 = document.getElementById('achternaam2');
+const straatnaam2 = document.getElementById('straat2');
+const huisnummer2 = document.getElementById('nummer2');
+const bedrijf2 = document.getElementById('bedrijf2');
+const post2 = document.getElementById('post2');
+const plaats2 = document.getElementById('plaats2');
+const land2 = document.getElementById('land2');
+
+let x = 0
+
+form.addEventListener('submit', e => {
+	e.preventDefault();
+	
+	
+	checkInputs();
+
+});
+
+function checkInputs() {
+	const aanhefValue = aanhef.value.trim();
+	const voornaamValue = voornaam.value.trim();
+	const achternaamValue = achternaam.value.trim();
+	const straatValue = straat.value.trim();
+	const nummerValue = nummer.value.trim();
+	const bedrijfValue = bedrijf.value.trim();
+	const postValue = post.value.trim();
+	const plaatsValue = plaats.value.trim();
+	const landValue = land.value.trim();
+	const emailValue = email.value.trim();
+	const telenumValue = telenum.value.trim();
+	const agvValue = agv.value.trim();
+
+	const aanhef2Value = aanhef2.value.trim();
+	const voornaam2Value = voornaam2.value.trim();
+	const achternaam2Value = achternaam2.value.trim();
+	const straat2Value = straatnaam2.value.trim();
+	const nummer2Value = nummer2.value.trim();
+	const bedrijf2Value = bedrijf2.value.trim();
+	const post2Value = post2.value.trim();
+	const plaats2Value = plaats2.value.trim();
+	const land2Value = land2.value.trim();
+
+	let x = 0
+
+	if(aanhefValue === '') {
+		setErrorFor (aanhef, 'Aanhef kan niet leeg zijn.');
+		x++
+		console.log(`x:${x}`)
+    } else {
+		setSuccessFor (aanhef);
+		localStorage.setItem('Aanhef', aanhefValue);
+	}
+
+	if(voornaamValue === '') {
+		setErrorFor(voornaam, 'Voornaam kan niet leeg zijn.');
+		x++
+		console.log(`x:${x}`)
+	} else {
+		setSuccessFor(voornaam);
+		localStorage.setItem('Voornaam', voornaamValue);
+	}
+
+	if(achternaamValue === '') {
+		setErrorFor(achternaam, 'Achternaam kan niet leeg zijn.');
+		x++
+		console.log(`x:${x}`)
+	} else {
+		setSuccessFor(achternaam);
+		localStorage.setItem('Achternaam', achternaamValue);
+	}
+
+	if(straatValue === '') {
+		setErrorFor(straat, 'Straatnaam kan niet leeg zijn.');
+		x++
+		console.log(`x:${x}`)
+	} else {
+		setSuccessFor(straat);
+		localStorage.setItem('Straatnaam', straatValue);
+	}
+	
+	if(nummerValue === '') {
+		setErrorFor(nummer, 'Huisnummer kan niet leeg zijn.');
+		x++
+		console.log(`x:${x}`)
+	} else {
+		setSuccessFor(nummer);
+		localStorage.setItem('Huisnummer', nummerValue);
+	}
+
+	if(bedrijfValue !== '') {
+		localStorage.setItem('Bedrijf', bedrijfValue)
+	}
+
+	if(postValue === '') {
+		setErrorFor(post, 'Postcode kan niet leeg zijn.');
+		x++
+		console.log(`x:${x}`)
+	} else {
+		setSuccessFor(post);
+		localStorage.setItem('Postcode', postValue);
+	}
+
+	if(plaatsValue === '') {
+		setErrorFor(plaats, 'Plaats kan niet leeg zijn.');
+		x++
+		console.log(`x:${x}`)
+	} else {
+		setSuccessFor(plaats);
+		localStorage.setItem('Plaatsnaam', plaatsValue);
+	}
+
+	if(landValue === '') {
+		setErrorFor(land, 'Land kan niet leeg zijn.');
+		x++
+		console.log(`x:${x}`)
+	} else {
+		setSuccessFor(land);
+		localStorage.setItem('Land', landValue);
+	}
+
+	if(emailValue === '') {
+		setErrorFor(email, 'Email kan niet leeg zijn.');
+		x++
+		console.log(`x:${x}`)
+	} else if (!isEmail(emailValue)) {
+		setErrorFor(email, 'Dat is geen bestaande email.');
+		x++
+		console.log(`x:${x}`)
+	} else {
+		setSuccessFor(email);
+		localStorage.setItem('Email', emailValue);
+	}
+
+	if(telenumValue === '') {
+		setErrorFor(telenum, 'Telefoonnummer kan niet leeg zijn.');
+		x++
+		console.log(`x:${x}`)
+	} else {
+		setSuccessFor(telenum);
+		localStorage.setItem('Telefoonnummer', telenumValue);
+	}
+
+	if(agvValue === '') {
+		setErrorFor (agv, 'Je moet de algemeene voorwaarden accepteren.');
+		x++
+		console.log(`x:${x}`)
+    } else {
+		setSuccessFor (agv);
+    }
+
+	if(aanhef2Value === '') {
+		setErrorFor (aanhef2, 'Aanhef kan niet leeg zijn.');
+		x++
+		console.log(`x:${x}`)
+	} else {
+		setSuccessFor (aanhef2);
+		localStorage.setItem('Ander factuur aanhef', aanhef2Value);
+	}
+
+	if(voornaam2Value === '') {
+		setErrorFor(voornaam2, 'Voornaam kan niet leeg zijn.');
+		x++
+		console.log(`x:${x}`)
+	} else {
+		setSuccessFor(voornaam2);
+		localStorage.setItem('Ander factuur voornaam', voornaam2Value);
+	}
+
+	if(achternaam2Value === '') {
+		setErrorFor(achternaam2, 'Achternaam kan niet leeg zijn.');
+		x++
+		console.log(`x:${x}`)
+	} else {
+		setSuccessFor(achternaam2);
+		localStorage.setItem('Ander factuur achternaam', achternaam2Value);
+	}
+
+	if(straat2Value === '') {
+		setErrorFor(straat2, 'Straatnaam kan niet leeg zijn!');
+		x++
+		console.log(`x:${x}`)
+	} else {
+		setSuccessFor(straat2);
+		localStorage.setItem('Ander factuur straatnaam', straat2Value);
+	}
+	
+	if(nummer2Value === '') {
+		setErrorFor(nummer2, 'Huisnummer kan niet leeg zijn!');
+		x++
+		console.log(`x:${x}`)
+	} else {
+		setSuccessFor(nummer2);
+		localStorage.setItem('Ander factuur huisnummer', nummer2Value);
+	}
+
+	if(bedrijf2Value !== '') {
+		localStorage.setItem('Ander factuur bedrijf', bedrijf2Value)
+	}
+
+	if(post2Value === '') {
+		setErrorFor(post2, 'Postcode kan niet leeg zijn!');
+		x++
+		console.log(`x:${x}`)
+	} else {
+		setSuccessFor(post2);
+		localStorage.setItem('Ander factuur postcode', post2Value);
+	}
+
+	if(plaats2Value === '') {
+		setErrorFor(plaats2, 'Plaats kan niet leeg zijn!');
+		x++
+		console.log(`x:${x}`)
+	} else {
+		setSuccessFor(plaats2);
+		localStorage.setItem('Ander factuur plaatsnaam', plaats2Value);
+	}
+
+	if(land2Value === '') {
+		setErrorFor(land2, 'Land kan niet leeg zijn!');
+		x++
+		console.log(`x:${x}`)
+	} else {
+		setSuccessFor(land2);
+		localStorage.setItem('Ander factuur land', land2Value);
+	} 
+
+	if(x === 0) {
+		window.location.replace("gegevens.html");
+		console.log("Versturen");
+    } else {
+		console.log("Niet Versturen");
+	}
+}
+
+function copyTextValue(bf) {
+	var text1 = bf.checked ? document.getElementById("aanhef").value : '';
+	document.getElementById("aanhef2").value = text1;
+
+	var text1 = bf.checked ? document.getElementById("voornaam").value : '';
+	document.getElementById("voornaam2").value = text1;
+
+	var text1 = bf.checked ? document.getElementById("achternaam").value : '';
+	document.getElementById("achternaam2").value = text1;
+
+	var text1 = bf.checked ? document.getElementById("straat").value : '';
+	document.getElementById("straat2").value = text1;
+
+	var text1 = bf.checked ? document.getElementById("nummer").value : '';
+	document.getElementById("nummer2").value = text1;
+
+	var text1 = bf.checked ? document.getElementById("bedrijf").value : '';
+	document.getElementById("bedrijf2").value = text1;
+
+	var text1 = bf.checked ? document.getElementById("post").value : '';
+	document.getElementById("post2").value = text1;	
+
+	var text1 = bf.checked ? document.getElementById("plaats").value : '';
+	document.getElementById("plaats2").value = text1;
+
+	var text1 = bf.checked ? document.getElementById("land").value : '';
+	document.getElementById("land2").value = text1;
+  }
+
+function setErrorFor(input, message) {
+	const formControl = input.parentElement;
+	const small = formControl.querySelector('small');
+	formControl.className = 'form-control error';
+	small.innerText = message;
+}
+
+function setSuccessFor(input) {
+	const formControl = input.parentElement;
+	formControl.className = 'form-control success';
+}
+	
+function isEmail(email) {
+	return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
+}
+
+                    </code>
+                </pre>
+                <!--This is the CSS code-->
+                <pre>
+                    <code class="css">
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #520072;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    width: 500px;
+    max-width: 100%;
+}
+
+.header {
+    border-bottom: 1px solid #f0f0f0;
+    background-color: #f7f7f7;
+    padding: 20px 40px;
+}
+
+.header h2{
+    margin: 0;
+}
+
+.error label{
+    background-color: #920000;
+    border: 2px solid #ac1b1b;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    font-family: inherit;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+    visibility: visible;
+}
+
+.form {
+    padding: 30px 40px;	
+}
+
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.form-control input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+}
+
+.form-control select {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+}
+
+.line hr {
+    border-top: 3px solid rgb(0, 0, 0);
+}
+
+.vraag label{
+    font-family: inherit;
+    font-size: 110%;
+    font-weight: bolder;
+}
+
+.vraag select{
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    width: 100%;
+}
+
+.form-control input:focus {
+    outline: 0;
+    border-color: #777;
+}
+
+.form-control.success input {
+    border-color: #2ecc71;
+}
+
+.form-control.error input {
+    border-color: #e74c3c;
+}
+
+.form-control.success select {
+    border-color: #2ecc71;
+}
+
+.form-control.error select {
+    border-color: #e74c3c;
+}
+
+.form-control small {
+    color: #e74c3c;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.form-control.error small {
+    visibility: visible;
+}
+
+.submit {
+    background-color: #009213;
+    border: 2px solid #069201;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    font-family: inherit;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+}
+                    </code>
+                </pre>
+            </div>
+        </div>
+    </div>
+    <!--This is the script that connects the highlight Javascript for the shown code on the website-->
+    <script src="highlight/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="js/script.js"></script>
+</body>
+</html>

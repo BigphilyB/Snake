@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Console Font';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/console.ttf')
+}
+
+body {
+    background-size: cover;
+    background-color: rgba(0,0,0,.8);
+    background-blend-mode: overlay;
+    font-family: 'Console Font';
+}
+
+body h1 {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+.gallery {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 960px;
+    min-height: 250px;
+    margin: auto;
+}
+
+.galleryItem {
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: inline-block;
+    background-color: blanchedalmond;
+    margin: 18px;
+    vertical-align: top;
+    box-sizing: border-box;
+    flex-flow: column wrap;
+    overflow: hidden;
+}
+
+.galleryItem p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.galleryItem img {
+    width: 100%;
+    display: block;
+}
+
+.galleryItem span {
+    display: block;
+    padding: 10px;
+}

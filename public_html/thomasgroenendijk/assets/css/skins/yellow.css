@@ -1,0 +1,31 @@
+.leftnav .logo a::before {
+    border-top: 4px solid #ffbb00;
+    border-left: 4px solid #ffbb00;
+}
+.leftnav .logo a::after {
+    border-right: 4px solid #ffbb00;
+    border-bottom: 4px solid #ffbb00;
+}
+.contact .contact-info-item .icon .fas,
+.lightbox .lightbox-controls .prev-item, .next-item .fas,
+.portfolio .portfolio-item .portfolio-info .icon .fas,
+.portfolio .portfolio-filter button.active,
+.about .about-content .about-text h3 span,
+.leftnav .nav li a:hover {
+    color: #ffbb00 !important;
+}
+.about .about-content .skills .skill-item .progress .progress-in,
+.btn,
+.section-title h2::before,
+.section-title h2::after,
+.leftnav .nav-toggler span,
+.leftnav .nav-toggler span::before,
+.leftnav .nav-toggler span::after,
+.home .intro .social-links a{
+    background-color: #ffbb00;
+}
+
+.portfolio .portfolio-filter button.active,
+.portfolio .portfolio-filter button:hover {
+    border-color: #ffbb00;
+}

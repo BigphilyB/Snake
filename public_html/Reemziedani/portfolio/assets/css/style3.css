@@ -1,0 +1,44 @@
+/* galliery */
+
+h1 {
+    color: #BBCFFF;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 13px;
+    background-color: #FBEDBE
+}
+
+p {
+    background-image: linear-gradient(#CCBB63, #BBCFFF);
+}
+
+.imgh-rekenmachine{
+    height: 47vh;
+    
+}
+.imgh-treinbord{
+    height:   15vh;
+    
+}
+.imgh-schaken {
+    height:    35vh;
+   
+}
+/* 
+table, td, th {
+    margin: 50px;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+.lastlinetable {
+    text-align: center;
+}
+
+table.contact {
+    background-color: #c49856;
+} */

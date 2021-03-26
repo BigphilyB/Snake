@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <!--This connects the home css to the home HTML-->
+    <link href="css/hstyle.css" rel="stylesheet">
+</head>
+<body>
+    <!--The div that hold the websites content-->
+    <div class="container">
+         <!--The gray block on top of the website with my name and logo-->
+        <div class="header">
+            <!--The title-->
+            <div class="name">
+                Hugo de Heus
+            </div>
+            <!--My self made logo-->
+            <div class="logo">
+                <button class="die">
+                    <img src="photo/logo2.png" id="dice" class="dice">
+                </button>
+                <audio id="d20">
+                    <source src="https://freesound.org/data/previews/353/353974_1815993-lq.mp3">
+                </audio>
+            </div>
+        </div>
+        <!--The bar that holds the menu bar-->
+        <div class="bar">
+            <!--the menu-->
+            <div class="menu">
+                <!--link to projects-->
+                <div class="pagina">
+                    <div class="menutext">
+                        <a  href="proj.html">
+                            PROJECTS
+                        </a>
+
+                    </div>
+                </div>
+                <!--Link to home-->
+                <div class="home">
+                    <a href="index.html">
+                        <img src="photo/home.png">
+                    </a>
+                </div>
+                <!--link to contact-->
+                <div class="pagina2">
+                    <div class="menutext">
+                        <a href="contact.html">
+                            CONTACT
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--This holds the main info of the page-->
+        <div class="content">
+            <!--Title-->
+            <div class="big">
+                About me:
+            </div>
+            <!--Discription about me-->
+            <div class="small">
+                My name is Hugo de Heus.  I am 16 years old, born on the 23rd of February 2004. <br>
+                My main hobby is watching movies. I watch at least 2 movies a day, I personally like science fiction. <br>
+                Programming and playing D&D with friends are my side hobbies. <br>
+                That is why my self-made logo is a D20 with programming languages. 
+                <!--A photo of myself-->  
+                <div class="image">
+                    <img src="photo/lookfoto.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

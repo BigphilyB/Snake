@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <!--This connects the CSS for contact to the HTML contact page-->
+    <link href="css/cstyle.css" rel="stylesheet"> 
+</head>
+<body>
+    <!--The div that hold the websites content-->
+    <div class="container">
+         <!--The gray block on top of the website with the title of the page and logo-->
+        <div class="header">
+            <!--The title-->
+            <div class="name">
+                Contact
+            </div>
+            <!--My self made logo-->
+            <div class="logo">
+                <button class="die">
+                    <img src="photo/logo2.png" id="dice" class="dice">
+                </button>
+                <audio id="d20">
+                    <source src="https://freesound.org/data/previews/353/353974_1815993-lq.mp3">
+                </audio>
+            </div>
+        </div>
+        <!--The bar that holds the menu bar-->
+        <div class="bar">
+            <!--the menu-->
+            <div class="menu">
+                <!--link to projects-->
+                <div class="pagina">
+                    <div class="menutext">
+                        <a  href="proj.html">
+                            PROJECTS
+                        </a>
+
+                    </div>
+                </div>
+                <!--Link to home-->
+                <div class="home">
+                    <a href="index.html">
+                        <img src="photo/home.png">
+                    </a>
+                </div>
+                <!--link to contact-->
+                <div class="pagina2">
+                    <div class="menutext">
+                        <a href="contact.html">
+                            CONTACT
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--This holds the main info of the page-->
+        <div class="content">
+            <!--A good looking photo of myself-->
+            <div class="me">
+                <img src="photo/coolfoto.png">
+            </div>
+            <!--Photo of what I will get if the email sends-->
+            <div class="email">
+                <img src="photo/email.png">
+            </div>
+            <!--The form-->
+            <form class="form"> 
+                <!--first name input-->
+                <div class="formInput">
+                    <label class="small">First name*</label>
+                    <input type="text" placeholder="John" name="firstname">
+                </div>
+                <!--sir name input-->
+                <div class="formInput">
+                    <label class="small">Sir name*</label>
+                    <input type="text" placeholder="Doe" name="sirname">
+                </div>
+                <!--Mail input-->
+                <div class="formInput">
+                    <label class="small">E-Mail*</label>
+                    <input type="text" placeholder="johndoe.1234@mail.com" name="mail">
+                </div>
+                <!--The message-->
+                <div class="formInput">
+                    <label class=small>Message</label>
+                    <textarea name="textarea" placeholder="Write here your message"></textarea>
+                </div>
+                <button class="button">submit</button>
+            </form>
+            
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submitted</title>
+</head>
+
+<body>
+    <h1>Overzicht:</h1>
+
+    <h3>
+        Aanhef: <span id="0" />
+    </h3>
+    <h3>
+        Voornaam: <span id="1" />
+    </h3>
+    <h3>
+        Achternaam: <span id="2" />
+    </h3>
+    <h3>
+        Straat: <span id="3" />
+    </h3>
+    <h3>
+        Huisnummer: <span id="4" />
+    </h3>
+    <h3>
+        Bedrijf: <span id="5" />
+    </h3>
+    <h3>
+        Postcode: <span id="6" />
+    </h3>
+    <h3>
+        Woonplaats: <span id="7" />
+    </h3>
+    <h3>
+        Land: <span id="8" />
+    </h3>
+    <h3>
+        Email: <span id="9" />
+    </h3>
+    <h3>
+        Telefoon: <span id="10" />
+    </h3>
+    <h2>Factuur:</h2>
+    <h3>
+        Aanhef: <span id="11" />
+    </h3>
+    <h3>
+        Voornaam: <span id="12" />
+    </h3>
+    <h3>
+        Achternaam: <span id="13" />
+    </h3>
+    <h3>
+        Straat: <span id="14" />
+    </h3>
+    <h3>
+        Huisnummer: <span id="15" />
+    </h3>
+    <h3>
+        Bedrijf: <span id="16" />
+    </h3>
+    <h3>
+        Postcode: <span id="17" />
+    </h3>
+    <h3>
+        Woonplaats: <span id="18" />
+    </h3>
+    <h3>
+        Land: <span id="19" />
+    </h3>
+
+
+    <script>
+
+        const paanhef = localStorage.getItem("vaanhef");
+        const pvoornaam = localStorage.getItem("vvoornaam");
+        const pachternaam = localStorage.getItem("vachternaam");
+        const pstraat = localStorage.getItem("vstraat");
+        const phuisnummer = localStorage.getItem("vhuisnummer");
+        const pbedrijf = localStorage.getItem("vbedrijf");
+        const ppostcode = localStorage.getItem("vpostcode");
+        const pwoonplaats = localStorage.getItem("vwoonplaats");
+        const pland = localStorage.getItem("vland");
+        const pemail = localStorage.getItem("vemail");
+        const ptelefoon = localStorage.getItem("vtelefoon");
+
+        const pfaanhef = localStorage.getItem("vfaanhef");
+        const pfvoornaam = localStorage.getItem("vfvoornaam");
+        const pfachternaam = localStorage.getItem("vfachternaam");
+        const pfstraat = localStorage.getItem("vfstraat");
+        const pfhuisnummer = localStorage.getItem("vfhuisnummer");
+        const pfbedrijf = localStorage.getItem("vfbedrijf");
+        const pfpostcode = localStorage.getItem("vfpostcode");
+        const pfwoonplaats = localStorage.getItem("vfwoonplaats");
+        const pfland = localStorage.getItem("vfland");
+        /*20*/
+        document.getElementById("0").innerHTML = paanhef
+        document.getElementById("1").innerHTML = pvoornaam
+        document.getElementById("2").innerHTML = pachternaam
+        document.getElementById("3").innerHTML = pstraat
+        document.getElementById("4").innerHTML = phuisnummer
+        document.getElementById("5").innerHTML = pbedrijf
+        document.getElementById("6").innerHTML = ppostcode
+        document.getElementById("7").innerHTML = pwoonplaats
+        document.getElementById("8").innerHTML = pland
+        document.getElementById("9").innerHTML = pemail
+        document.getElementById("10").innerHTML = ptelefoon
+        document.getElementById("11").innerHTML = pfaanhef
+        document.getElementById("12").innerHTML = pfvoornaam
+        document.getElementById("13").innerHTML = pfachternaam
+        document.getElementById("14").innerHTML = pfstraat
+        document.getElementById("15").innerHTML = pfhuisnummer
+        document.getElementById("16").innerHTML = pfbedrijf
+        document.getElementById("17").innerHTML = pfpostcode
+        document.getElementById("18").innerHTML = pfwoonplaats
+        document.getElementById("19").innerHTML = pfland
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,261 @@
+#bord {
+    width: 600x;
+    height: 600px;
+    background-color: rgb(172, 172, 172);
+}
+
+#linksbord {
+    width: 140px;
+    height: 340px;
+    float: left, top;
+    margin-left: left, top;
+    box-shadow: inset 0px 0px 0px 3px black;
+    box-sizing: border-box;
+    background-color: rgb(17, 17, 255);
+}
+
+#rechtsbord {
+    width: 200px;
+    height: 340px;
+    float: top;
+    position: absolute;
+    left: 713px;
+    margin-left: left, top;
+    box-shadow: inset 0px 0px 0px 3px black;
+    box-sizing: border-box;
+    background-color: rgb(192, 192, 192);
+}
+
+
+#middenachter {
+    width: 570px;
+    height: 340px;
+    float: left, top;
+    position: absolute;
+    left: 145px;
+    margin-left: left, top;
+    box-shadow: inset 0px 0px 0px 3px black;
+    box-sizing: border-box;
+    background-color: rgb(57, 57, 255);
+}
+
+
+#bordmidden {
+    width: 500px;
+    height: 175px;
+    float: top;
+    position: absolute;
+    left: 180px;
+    top: 90px;
+    box-shadow: inset 0px 0px 0px 3px black;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+}
+
+#plaats {
+    font: Verdana, sans-serif;
+    position: absolute;
+    left: 10px;
+    font-size: 40px;
+    color: rgb(17, 17, 2553);
+}
+
+#plaats2 {
+    font: Verdana, sans-serif;
+    position: absolute;
+    left: 10px;
+    top: 50px;
+    font-size: 25px;
+    color: rgb(17, 17, 2553);
+}
+
+#plaats3 {
+    font: Verdana, sans-serif;
+    position: absolute;
+    left: 10px;
+    top: 79px;
+    font-size: 25px;
+    color: rgb(17, 17, 2553);
+}
+
+#plaats4 {
+    font: Verdana, sans-serif;
+    position: absolute;
+    left: 10px;
+    top: 108px;
+    font-size: 25px;
+    color: rgb(17, 17, 2553);
+}
+
+#plaats5 {
+    font: Verdana, sans-serif;
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+#plaats6 {
+    font: Verdana, sans-serif;
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+#bordmiddenlinks {
+    width: 250px;
+    height: 50px;
+    float: top;
+    margin-left: left, top;
+    position: absolute;
+    left: 0px;
+    top: -50px;
+    box-shadow: inset 0px 3px 0px 3px black;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+}
+#tijd {
+    font: Verdana, sans-serif;
+    position: absolute;
+    left: 10px;
+    font-size: 35px;
+    color: rgb(17, 17, 2553);
+}
+
+#bordmiddenrechts {
+    width: 250px;
+    height: 50px;
+    float: top;
+    margin-left: left, top;
+    position: absolute;
+    left: 250px;
+    top: -50px;
+    box-shadow: inset 0px 3px 0px 3px black;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+}
+
+#intercity {
+    font: Verdana, sans-serif;
+    position: absolute;
+    left: 10px;
+    font-size: 35px;
+    color: rgb(17, 17, 2553);
+}
+#ns {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 150px;
+    top: 10px;
+}
+
+
+#nslogo {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 60px;
+    top: 0px;
+}
+
+#clock {
+    position: absolute;
+    left: 740px;
+    top: 35px;
+}
+
+
+#clocklogo {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 60px;
+    top: 0px;
+}
+
+#bordmiddenbottom1 {
+    width: 500px;
+    height: 35px;
+    float: top;
+    margin-left: left, top;
+    position: absolute;
+    left: 0px;
+    top: 175px;
+    box-shadow: inset 0px 0px 0px 3px black;
+    box-sizing: border-box;
+    background-color: rgb(69, 6, 240);
+}
+
+#bordmiddenbottom2 {
+    width: 500px;
+    height: 35px;
+    float: top;
+    margin-left: left, top;
+    position: absolute;
+    left: 0px;
+    top: 210px;
+    box-shadow: inset 0px 0px 0px 3px black;
+    box-sizing: border-box;
+    background-color: rgb(69, 6, 240);
+}
+
+
+
+#kleinspoor {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    box-shadow: inset 0px 0px 0px 3px black;
+    box-sizing: border-box;
+    background-color: rgb(17, 17, 2553);
+}
+
+#spoor {
+    width: 106px;
+    height: 106px;
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    box-shadow: inset 0px 0px 0px 3px black;
+    box-sizing: border-box;
+    background-color: rgb(243, 243, 243);
+}
+
+#spoornummer {
+    width: 106px;
+    height: 106px;
+    position: absolute;
+    left: 15px;
+    top: -20px;
+    font: Verdana, sans-serif;
+    font-size: 70px;
+    color: rgb(17, 17, 2553);
+}
+
+#spoornummer2 {
+    width: 106px;
+    height: 106px;
+    position: absolute;
+    left: 80px;
+    top: -30px;
+    font: Verdana, sans-serif;
+    font-size: 40px;
+    color: rgb(17, 17, 2553);
+}
+
+#spoornummer3 {
+    width: 106px;
+    height: 106px;
+    position: absolute;
+    left: 28px;
+    top: -20px;
+    font: Verdana, sans-serif;
+    font-size: 15px;
+    color: rgb(17, 17, 2553);
+}

@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'Frutiger';
+    src: url('Frutiger\ Neue\ LT\ Medium.woff');
+}
+
+* {
+    font-family: 'Frutiger';
+}
+
+.linker_rand {
+    background-color: #092869;
+    float: left;
+    height: 340px;
+    width: 140px;
+}
+
+.spoornr {
+    margin-top: 30px;
+    margin-left: 12px;
+    background-color: #fff;
+    height: 106px;
+    width: 106px;
+}
+
+.blokje_weg {
+    padding: 0;
+    margin: 0;
+    background-color: #092869;
+    height: 25px;
+    width: 25px;
+}
+
+.spoor_tekst {
+    margin: 0;
+    padding-left: 30px;
+}
+
+.spoornummer {
+    font-size: 65px;
+    line-height: 0px;
+    float: left;
+    margin-top: 40px;
+}
+
+.spoorletter {
+    font-size: 40px;
+    float: right;
+    margin-top: 10px;
+}
+
+.reisinfo {
+    background-color: #061c4b;
+    float: left;
+    height: 340px;
+    width: 600px;
+}
+
+.tijdinfo {
+    margin: auto;
+    padding-left: 50px;
+}
+
+.tijd {
+    background-color: #fff;
+    color: #092869;
+    font-size: 45px;
+    line-height: 50px;
+    height: 50px;
+    width: 250px;
+    margin-top: 30px;
+    float: left;
+}
+
+.trein {
+    background-color: #fff;
+    color: #092869;
+    font-size: 45px;
+    line-height: 45px;
+    height: 50px;
+    width: 250px;
+    margin-top: 30px;
+    float: left;
+}
+
+.bestemmingsinfo {
+    margin-left: 50px;
+    background-color: #fff;
+    color: #092869;
+    font-size: 45px;
+    line-height: 45px;
+    height: 175px;
+    width: 500px;
+    float: left;
+}
+
+.bestemmingsinfo .haltes {
+    line-height: 35px;
+    font-size: 30px;
+}
+
+.meldingslijn1 {
+    margin-left: 50px;
+    background-color: #0a328a;
+    color: white;
+    height: 35px;
+    width: 500px;
+    font-size: 25px;
+    line-height: 35px;
+    float: left;
+    border-bottom: 1px solid white;
+}
+
+.meldingslijn2 {
+    margin-left: 50px;
+    background-color: #0a328a;
+    color: white;
+    height: 35px;
+    width: 500px;
+    font-size: 25px;
+    line-height: 35px;
+    float: left;
+}
+
+.klok {
+    background-color: #cacaca;
+    float: left;
+    height: 340px;
+    width: 245px;
+}
+
+#canvas {
+    padding-top: 20px;
+    padding-left: 20px;
+}
